@@ -27,7 +27,9 @@ struct grid: View {
 // MARK: - Grid Alignment
 struct alignment: View {
   /*
-   alignment parameter of the grid sets alinment to the content of the column. This really comes into effect then the adjecent column is taller or wider, where in the current columsn gets more hwight or width to move content around.
+   alignment parameter of the grid sets alinment to the content of the column.
+   This really comes into effect then the adjecent column is taller or wider,
+   where in the current columsn gets more hwight or width to move content around.
    */
   var body: some View {
     Grid(alignment: .center) {
